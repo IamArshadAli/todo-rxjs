@@ -1,0 +1,5 @@
+<div class="container">
+  <ul *ngFor="let task of taskList">
+    <li> {{task}} <span (click)="deleteTask(task)">X</span> </li>
+  </ul>
+</div>

@@ -1,0 +1,4 @@
+<div class="container">
+  <input type="text" placeholder="task" [(ngModel)]="newTask" [ngClass]="{'error': hasError}">
+  <button type="button" (click)="addTask()">Add Task</button>
+</div>

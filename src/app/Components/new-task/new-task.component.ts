@@ -22,6 +22,3 @@ export class NewTaskComponent {
     this.newTask = '';
   }
 }
-
-
-// From New Git Acc

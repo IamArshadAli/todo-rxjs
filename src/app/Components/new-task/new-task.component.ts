@@ -9,7 +9,7 @@ import { TaskService } from '../../Services/task.service';
 export class NewTaskComponent {
   newTask: string = '';
   hasError: boolean = false;
-
+  
   taskService: TaskService = inject(TaskService);
 
   addTask() {
@@ -22,3 +22,6 @@ export class NewTaskComponent {
     this.newTask = '';
   }
 }
+
+
+// From New Git Acc
